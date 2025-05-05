@@ -28,7 +28,7 @@ const CTA_MOBILE_TEXT = "PROTEGER FAMÍLIA" // Texto do botão para mobile (mais
 const CTA_URL = "https://pay.kirvano.com/5a2711a1-3c63-4d2e-a5e8-ec1bfc39fe51" // URL para onde o botão direciona
 
 // Configurações de imagens
-const PRODUCT_IMAGE = "https://iili.io/3Nn6Ha1.md.png" // Imagem do produto
+const PRODUCT_IMAGE = "https://iili.io/3Nn6Ha1.png" // Imagem do produto
 
 // Benefícios do produto (itens com check)
 const PRODUCT_BENEFITS = [
@@ -41,15 +41,15 @@ const PRODUCT_BENEFITS = [
 // Lista de compras fictícias para as notificações
 const RECENT_PURCHASES = [
   { name: "Mariana S.", location: "São Paulo, SP", timeAgo: "37 segundos" },
-  { name: "Vanessa M.", location: "Rio de Janeiro, RJ", timeAgo: "2 minutos" },
+  { name: "Eduarda M.", location: "Rio de Janeiro, RJ", timeAgo: "2 minutos" },
   { name: "Juliana R.", location: "Belo Horizonte, MG", timeAgo: "4 minutos" },
-  { name: "Lorrane A.", location: "Curitiba, PR", timeAgo: "5 minutos" },
+  { name: "Lorena A.", location: "Curitiba, PR", timeAgo: "5 minutos" },
   { name: "Fernanda L.", location: "Salvador, BA", timeAgo: "7 minutos" },
-  { name: "Maria C.", location: "Brasília, DF", timeAgo: "9 minutos" },
+  { name: "Viviane C.", location: "Brasília, DF", timeAgo: "9 minutos" },
   { name: "Amanda S.", location: "Fortaleza, CE", timeAgo: "11 minutos" },
-  { name: "Vitoria T.", location: "Recife, PE", timeAgo: "13 minutos" },
+  { name: "Rayssa T.", location: "Recife, PE", timeAgo: "13 minutos" },
   { name: "Patrícia M.", location: "Porto Alegre, RS", timeAgo: "15 minutos" },
-  { name: "Raquel R.", location: "Manaus, AM", timeAgo: "18 minutos" },
+  { name: "Yasmim R.", location: "Manaus, AM", timeAgo: "18 minutos" },
 ]
 
 // ======= COMPONENTE PRINCIPAL =======
@@ -192,6 +192,11 @@ export default function UpsellPage() {
         spread: 70,
         origin: { y: 0.6 },
       })
+
+      // Redirecionar após um pequeno delay para permitir que o confete seja visto
+      setTimeout(() => {
+        window.location.href = CTA_URL
+      }, 800)
     }
   }
 
