@@ -24,7 +24,7 @@ const PRODUCT_DISCOUNT = "72% OFF"
 
 // Configurações do CTA
 const CTA_TEXT = "QUERO PROTEGER MINHA FAMÍLIA" // Texto do botão principal
-const CTA_MOBILE_TEXT = "COMPRAR AGORA" // Texto do botão para mobile (mais curto)
+const CTA_MOBILE_TEXT = "PROTEGER FAMÍLIA" // Texto do botão para mobile (mais curto)
 const CTA_URL = "#checkout" // URL para onde o botão direciona
 
 // Configurações de imagens
