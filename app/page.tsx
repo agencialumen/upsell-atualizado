@@ -470,18 +470,6 @@ export default function UpsellPage() {
         </motion.div>
       </main>
 
-      {/* Floating action button for mobile */}
-      <div className="fixed bottom-4 right-4 md:hidden z-50">
-        <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-          <Button
-            onClick={triggerConfetti}
-            className="h-14 w-14 rounded-full bg-gradient-to-r from-teal-500 to-teal-400 text-white shadow-lg flex items-center justify-center"
-          >
-            <ArrowRight className="h-6 w-6" />
-          </Button>
-        </motion.div>
-      </div>
-
       {/* Purchase notifications */}
       <AnimatePresence>
         {showNotification && currentPurchase && (
