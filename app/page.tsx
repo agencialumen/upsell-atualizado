@@ -41,15 +41,15 @@ const PRODUCT_BENEFITS = [
 // Lista de compras fictícias para as notificações
 const RECENT_PURCHASES = [
   { name: "Mariana S.", location: "São Paulo, SP", timeAgo: "37 segundos" },
-  { name: "Carlos M.", location: "Rio de Janeiro, RJ", timeAgo: "2 minutos" },
+  { name: "Vanessa M.", location: "Rio de Janeiro, RJ", timeAgo: "2 minutos" },
   { name: "Juliana R.", location: "Belo Horizonte, MG", timeAgo: "4 minutos" },
-  { name: "Pedro A.", location: "Curitiba, PR", timeAgo: "5 minutos" },
+  { name: "Lorrane A.", location: "Curitiba, PR", timeAgo: "5 minutos" },
   { name: "Fernanda L.", location: "Salvador, BA", timeAgo: "7 minutos" },
-  { name: "Roberto C.", location: "Brasília, DF", timeAgo: "9 minutos" },
+  { name: "Maria C.", location: "Brasília, DF", timeAgo: "9 minutos" },
   { name: "Amanda S.", location: "Fortaleza, CE", timeAgo: "11 minutos" },
-  { name: "Lucas T.", location: "Recife, PE", timeAgo: "13 minutos" },
+  { name: "Vitoria T.", location: "Recife, PE", timeAgo: "13 minutos" },
   { name: "Patrícia M.", location: "Porto Alegre, RS", timeAgo: "15 minutos" },
-  { name: "Gustavo R.", location: "Manaus, AM", timeAgo: "18 minutos" },
+  { name: "Raquel R.", location: "Manaus, AM", timeAgo: "18 minutos" },
 ]
 
 // ======= COMPONENTE PRINCIPAL =======
