@@ -28,7 +28,7 @@ const CTA_MOBILE_TEXT = "PROTEGER FAMÍLIA" // Texto do botão para mobile (mais
 const CTA_URL = "https://pay.kirvano.com/5a2711a1-3c63-4d2e-a5e8-ec1bfc39fe51" // URL para onde o botão direciona
 
 // Configurações de imagens
-const PRODUCT_IMAGE = "/placeholder.svg?height=400&width=300" // Imagem do produto
+const PRODUCT_IMAGE = "https://iili.io/3Nn6Ha1.md.png" // Imagem do produto
 
 // Benefícios do produto (itens com check)
 const PRODUCT_BENEFITS = [
