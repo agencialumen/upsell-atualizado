@@ -19,8 +19,8 @@ const TIMER_SECONDS = 0
 // Configurações do produto
 const PRODUCT_NAME = 'KIT DIGITAL "FAMÍLIA IMUNE"'
 const PRODUCT_REGULAR_PRICE = "R$97"
-const PRODUCT_SALE_PRICE = "R$27"
-const PRODUCT_DISCOUNT = "72% OFF"
+const PRODUCT_SALE_PRICE = "R$19.90"
+const PRODUCT_DISCOUNT = "79,5% OFF"
 
 // Configurações do CTA
 const CTA_TEXT = "QUERO PROTEGER MINHA FAMÍLIA" // Texto do botão principal
